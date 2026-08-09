@@ -1,5 +1,8 @@
 # RFID-Based Unified Citizen Services Management System
 
+## My Project
+This is my first GitHub repository
+
 ## 📌 Overview
 This project is a multi-service embedded system built using the LPC2148 (ARM7TDMI-S) microcontroller. It integrates multiple citizen services such as PAN information, ATM operations, Digital Voting, and Driving License verification using a single RFID card.
 
@@ -31,3 +34,4 @@ This project is a multi-service embedded system built using the LPC2148 (ARM7TDM
 
 ## 👨‍💻 Author
 A.TAGORE
+
