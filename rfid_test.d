@@ -1,0 +1,11 @@
+.\rfid_test.o: Rfid_test.c
+.\rfid_test.o: C:\Keil\ARM\Inc\Philips\lpc21xx.h
+.\rfid_test.o: types.h
+.\rfid_test.o: lcd_defines.h
+.\rfid_test.o: kpm.h
+.\rfid_test.o: spi_defines.h
+.\rfid_test.o: spi_eeprom_defines.h
+.\rfid_test.o: uart0.h
+.\rfid_test.o: rfid.h
+.\rfid_test.o: delay.h
+.\rfid_test.o: user_menu.h
