@@ -1,0 +1,17 @@
+# Keil build artifacts
+*.o
+*.d
+*.crf
+*.lst
+*.axf
+*.hex
+*.map
+*.lnp
+*.build_log.htm
+
+# Keil user-specific files and backups
+*.uvgui*
+*.bak
+
+# Local logs
+*.log

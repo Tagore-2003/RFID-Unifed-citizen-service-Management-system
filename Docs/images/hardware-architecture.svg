@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title description">
+  <title id="title">RFID citizen service system hardware architecture</title>
+  <desc id="description">LPC2148 is connected to RFID reader, keypad, LCD, EEPROM, RTC, LEDs and buzzer.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker><style>.box{fill:#f8fafc;stroke:#334155;stroke-width:3;rx:16}.main{fill:#e0f2fe;stroke:#0369a1;stroke-width:4;rx:18}.t{font-family:Arial,sans-serif;fill:#0f172a;text-anchor:middle;font-weight:700}.s{font-family:Arial,sans-serif;fill:#475569;text-anchor:middle;font-size:18px}.a{stroke:#334155;stroke-width:3;fill:none;marker-end:url(#arrow)}</style></defs>
+  <rect width="1200" height="700" fill="#ffffff"/>
+  <text x="600" y="55" class="t" font-size="31">RFID-Based Unified Citizen Service Management System</text>
+  <text x="600" y="86" class="s">Hardware Architecture</text>
+  <rect x="450" y="255" width="300" height="150" class="main"/><text x="600" y="310" class="t" font-size="29">LPC2148</text><text x="600" y="340" class="t" font-size="22">ARM7TDMI-S Controller</text><text x="600" y="370" class="s">Central processing unit</text>
+  <rect x="70" y="135" width="230" height="95" class="box"/><text x="185" y="174" class="t" font-size="23">RFID Reader</text><text x="185" y="204" class="s">UART</text>
+  <rect x="70" y="460" width="230" height="95" class="box"/><text x="185" y="499" class="t" font-size="23">4x4 Keypad</text><text x="185" y="529" class="s">User input</text>
+  <rect x="900" y="125" width="230" height="95" class="box"/><text x="1015" y="164" class="t" font-size="23">20x4 LCD</text><text x="1015" y="194" class="s">User display</text>
+  <rect x="900" y="275" width="230" height="95" class="box"/><text x="1015" y="314" class="t" font-size="23">25LC512 EEPROM</text><text x="1015" y="344" class="s">SPI storage</text>
+  <rect x="900" y="430" width="230" height="95" class="box"/><text x="1015" y="469" class="t" font-size="23">RTC + EINT3</text><text x="1015" y="499" class="s">Date and time</text>
+  <rect x="470" y="545" width="260" height="85" class="box"/><text x="600" y="580" class="t" font-size="23">LEDs and Buzzer</text><text x="600" y="610" class="s">Status feedback</text>
+  <path class="a" d="M300 183 L447 283"/><path class="a" d="M300 507 L447 376"/><path class="a" d="M753 284 L897 200"/><path class="a" d="M753 330 L897 330"/><path class="a" d="M753 376 L897 468"/><path class="a" d="M600 407 L600 542"/>
+</svg>

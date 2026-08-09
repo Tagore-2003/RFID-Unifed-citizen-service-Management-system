@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1250" viewBox="0 0 1100 1250" role="img" aria-labelledby="title description">
+  <title id="title">Unified citizen service firmware flowchart</title><desc id="description">A flowchart from startup and card scan to authentication and citizen services.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker><style>.p{fill:#e0f2fe;stroke:#0369a1;stroke-width:3}.d{fill:#fef3c7;stroke:#b45309;stroke-width:3}.s{fill:#f0fdf4;stroke:#15803d;stroke-width:3}.e{fill:#fee2e2;stroke:#b91c1c;stroke-width:3}.t{font-family:Arial,sans-serif;fill:#0f172a;text-anchor:middle;font-size:23px;font-weight:700}.a{stroke:#334155;stroke-width:3;fill:none;marker-end:url(#arrow)}.l{font-family:Arial,sans-serif;fill:#334155;font-size:19px;font-weight:700}</style></defs>
+  <rect width="1100" height="1250" fill="#ffffff"/><text x="550" y="48" class="t" font-size="31">Firmware Software Flowchart</text>
+  <ellipse cx="550" cy="105" rx="105" ry="35" class="s"/><text x="550" y="113" class="t">START</text>
+  <rect x="370" y="180" width="360" height="75" rx="16" class="p"/><text x="550" y="225" class="t">Initialize LCD, Keypad, UART, SPI, RTC</text>
+  <rect x="370" y="310" width="360" height="75" rx="16" class="p"/><text x="550" y="355" class="t">Display “Waiting for RFID scan”</text>
+  <polygon points="550,450 705,525 550,600 395,525" class="d"/><text x="550" y="520" class="t">RFID card</text><text x="550" y="550" class="t">received?</text>
+  <polygon points="550,670 705,745 550,820 395,745" class="d"/><text x="550" y="740" class="t">Card ID</text><text x="550" y="770" class="t">valid?</text>
+  <rect x="95" y="705" width="210" height="80" rx="16" class="e"/><text x="200" y="738" class="t">Show invalid card</text><text x="200" y="767" class="t">and error alarm</text>
+  <rect x="370" y="890" width="360" height="75" rx="16" class="p"/><text x="550" y="935" class="t">Display user welcome screen</text>
+  <rect x="330" y="1020" width="440" height="75" rx="16" class="p"/><text x="550" y="1052" class="t">Select service: PAN | ATM | Voting</text><text x="550" y="1080" class="t">Driving License | Officer Mode</text>
+  <rect x="330" y="1140" width="440" height="65" rx="16" class="s"/><text x="550" y="1181" class="t">Verify PIN where required, execute service</text>
+  <path class="a" d="M550 140 L550 177 M550 255 L550 307 M550 385 L550 447 M550 603 L550 667 M550 823 L550 887 M550 965 L550 1017 M550 1095 L550 1137"/>
+  <path class="a" d="M395 745 L308 745"/><path class="a" d="M200 705 C200 450,330 420,392 470"/><text x="328" y="500" class="l">No</text><text x="720" y="720" class="l">Yes</text><path class="a" d="M705 525 C840 525,840 345,733 345"/><text x="808" y="430" class="l">No</text><text x="572" y="650" class="l">Yes</text>
+</svg>
