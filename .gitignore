@@ -1,17 +1,22 @@
-# Keil build artifacts
+# Keil uVision Build Artifacts & Logs
+*.htm
+*.html
 *.o
-*.d
 *.crf
-*.lst
+*.d
 *.axf
 *.hex
 *.map
+*.lst
 *.lnp
-*.build_log.htm
-
-# Keil user-specific files and backups
-*.uvgui*
+*.sct
+*.dep
 *.bak
+*.uvgui.*
+*.uvgui_*
+build_output.log
 
-# Local logs
-*.log
+# OS & Editor generated files
+Thumbs.db
+Desktop.ini
+.DS_Store

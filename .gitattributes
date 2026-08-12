@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# GitHub Linguist Configuration
+# Force GitHub language statistics to count only C source code (100% C)
+
+*.htm linguist-vendored
+*.html linguist-vendored
+*.s linguist-vendored
+*.lst linguist-vendored
